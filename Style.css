@@ -1,0 +1,290 @@
+/* reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight:bold;
+    color: #ae8acc;
+    margin:.5em 0 .5em 0;
+padding: 0 .5em 0 .5em;
+}
+
+h1{font-size: 2em;
+    line-height: 2.5em;
+    text-shadow: 2px 2px #d5aff4;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2{font-size: 1.5em;
+    line-height: 1.8em;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h3{font-size: 1.17em;
+    line-height: 1.8em;
+    "Comic Sans MS", cursive, sans-serif
+}
+
+h4{font-size: 1em;}
+h5{font-size: .83em;}
+h6{font-size: .87em;}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+
+
+/* display normal box-sizing*/
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    width : 100%;
+    max-width : 1200px;
+    margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+    width: 8.333333333%;
+    /*-- our gutter --*/
+    padding: 12px;
+}
+
+.col-1	{ width:8.333333333%}
+.col-2	{ width:16.66666667% }
+.col-3	{ width:25% }
+.col-4	{ width:33.33333333% }
+.col-5	{ width:41.66666667% }
+.col-6	{ width:50% }
+.col-7	{ width:58.33333333% }
+.col-8	{ width:66.66666667% }
+.col-9	{ width:75% }
+.col-10	{ width:83.33333333% }
+.col-11	{ width:91.66666667% }
+.col-12	{ width:100% }
+
+/*.outline, .outline*/ *{
+    /*outline: 1px solid #F6A1A1;*/
+}
+
+.round{
+    border-radius: 50%;
+}
+
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/*header logo*/
+.logo{
+
+}
+
+.account{
+    float:left;
+}
+
+.band{
+    background-color: #BA101B;
+    color: #fff;
+
+}
+
+nav{
+
+}
+
+ul{
+    margin: 1em 0;
+    float:right;
+}
+
+
+li{
+    list-style: none;
+    float: left;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    padding: .2em 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+
+}
+li a:hover{
+    background:#a30e18;
+}
+
+ul.news{
+    display: block;
+    float:none;
+}
+
+.news li{
+    float: none;
+    display: block;
+}
+
+/*footer styles here=*/
+footer{
+    background-color:rgba(174,138,102,.1);
+    padding:1.5em;
+}
+footer h2{
+    border-bottom: 1px solid #BA101B;
+}
+footer ul,footer li {
+    display:block;
+    width:100%;
+}
+
+footer li a{
+    color: #BA101B;
+    padding:.5em;
+    font-size: 1em;
+    line-height:1.5em;
+}
+footer li a:visited{color:#999999;}
+footer li a:hover{color:#AE8A66; background:transparent;}
+
+/* form styles*/
+input, textarea{
+    width: 100%;
+    padding:.5em;
+    margin-bottom:12px;
+    font-size:1em;
+}
+
+
+.quovolver blockquote{
+
+    line-height:2em;
+    font-size:1em;
+
+
+}
+form{
+
+    width: 400px;
+    margin: 40px auto 40px auto;
+
+}
+
+.Newsletter{
+    margin: 20px 0 20px 0;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 250px;
+    margin-left: 5px;
+}
+
+.ad{
+    display: inline;
+}
+.state{
+    background-color: yellow;
+    width: 25px;
+    padding: 2px;
+    margin-left: 5px;
+}
+.check{
+    margin: 0px 0px 5px;
+    padding: 0px;
+    width: auto;
+}
+.button{
+    margin:50px 15px 15px 50px;
+}
+
+legend{
+    border: 1px solid darkslategray;
+    padding: 2px;
+}
+
+fieldset, legend{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #300;
+}
+
+p{
+
+}
+
+.message{
+    margin-top: 15px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>InterMountain</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<header>
+<div class="row">
+    <h1 class="logo col-9">Intermountain Search Dogs</h1>
+
+    <div class="col-3"><p class="account">My Account | Log In</p></div>
+</div>
+</header>
+<div class="row outline band">
+    <nav class="container outline">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Volunteer.html">Volunteer</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</div>
+<main class="container outline">
+    <form>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label>FirstName</label>
+            <input type="text" size="10" placeholder="FirstName" required=""/><br>
+            <label>LastName</label>
+            <input type="text" size="10" placeholder="Lastname" required=""/><br>
+            <label>Phone</label>
+            <input type="tel" placeholder="Phone" required/><br>
+            <label>Email</label>
+            <input type="email" placeholder="Email" required><br>
+        </fieldset>
+
+        <p class="Newsletter">Please subscribe me to your newsletter
+            <input class="check" type="checkbox" checked/>
+        </p>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label class="ainput">Street Address</label><input type="text" placeholder="street address" required><br>
+            <label class="ainput">State</label><input type="text" placeholder="state" maxlength="2" required>
+            <label class="ainput">City</label><input type="text" placeholder="city" required>
+            <label class="ainput">Zip</label><input type="text" placeholder="Zip" required>
+        </fieldset>
+
+        <label class="ainput message">Message</label><textarea rows="10" cols="10"></textarea>
+
+
+        <input class="button" type="submit" value="Submit"/>
+
+    </form>
+</main>
+<footer>
+    © 2014 National Search Dog Alliance - All rights reserved.
+
+</footer>
+
+</body>
+</html>
